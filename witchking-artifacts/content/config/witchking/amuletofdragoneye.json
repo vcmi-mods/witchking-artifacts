@@ -1,0 +1,29 @@
+{
+	"amuletOfDragonEye":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"NECK",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Amulet of Dragon Eye",
+			"description": "Worn about the neck, this item increases your Sorcery skill by 5%",
+			"event": "Deep within the Dragon Peaks, you discover a hidden cavern where an ancient artifact rested on a pedestal made of dragon bone. The Amulet of Dragon Eye, glowing with an otherworldly light, calls to you. As you grasp the amulet, a surge of draconic power fills your mind, revealing the secrets of ancient dragon sorcery."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/amuletOfDragonEye44.bmp",
+			"map": "witchking/map/AMULETOFDRAGONEYE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.any",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

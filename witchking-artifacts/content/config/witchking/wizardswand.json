@@ -1,0 +1,27 @@
+{
+	"wizardsWand":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"RIGHT_HAND",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Wizard's Wand",
+			"description": "Reduces cost of all spells by 2.",
+			"event": "In a forgotten chamber, you encounter the Wizard's Wand, its surface glowing with arcane symbols. As you grasp it, a wave of magical efficiency courses through your being."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/wizardswand44.bmp",
+			"map": "witchking/map/WIZARDSWAND.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CHANGES_SPELL_COST_FOR_ALLY",
+				"val" : 2
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"dwarvenHelmet":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"HEAD",
+		"value": 3500,	
+		"text":
+		{
+			"name": "Dwarven Helmet",
+			"description": "Increases hero defense skill by 2 and renders units immune to defence-reducing spells",
+			"event": "In a hidden chamber beneath the mountains, you discover the Dwarven Helmet, a masterwork of ancient craftsmanship. As you place it on your head, a solid, unwavering sense of protection settles over you."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/dwarvenHelmet44.bmp",
+			"map": "witchking/map/DWARVENHELMET.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": "defence",
+				"val" : 2
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.disruptingRay"
+			},
+			{
+				"type": "SPELL_IMMUNITY",
+				"subtype": "spell.acidBreath"
+			}
+		]
+	}
+}

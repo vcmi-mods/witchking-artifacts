@@ -1,0 +1,11 @@
+[Data]
+Type=3
+Shadow Type=2
+Groups Number=1
+Group0=holy_hammera.bmp|
+Shadow0=Shadow\holy_hammera.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$FF96FF|$000E06|$00011E|$FF00FF|$101F11|$19271C|$25261D|
+ShadowColorsBox.Colors=$FFFF00|$FF96FF|$000E06|$00011E|$FF00FF|$101F11|$19271C|$25261D|
+ColorsBox.ColorChecks=1|0|0|0|0|1|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

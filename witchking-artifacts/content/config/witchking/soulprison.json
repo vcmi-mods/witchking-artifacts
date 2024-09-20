@@ -1,0 +1,27 @@
+{
+	"soulPrison":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"MISC",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Soul Prison",
+			"description": "Creatures in your army get ability to drain enemy mana each turn.",
+			"event": "Within a tower's depths, you discover the Soul Prison, a relic resting atop a bag of bones. Upon claiming it, the artifact's power spread through your troops."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/soulprison44.bmp",
+			"map": "witchking/map/SOULPRISON.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "MANA_DRAIN",
+				"val" : 1
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"philosphersStone":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"MISC",
+		"value": 1500,	
+		"text":
+		{
+			"name": "Philosopher's Stone",
+			"description": "Grants wielder 10% bonus to Intelligence skill.",
+			"event": "In an old library, you discover the Philosopher's Stone. Its surface is shimmering with an otherworldly glow. As you pick it up, new knowledge and insight flow into your mind."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/philosophersstone44.bmp",
+			"map": "witchking/map/PHILOSOPHERSSTONE.def"
+		},
+		"bonuses":
+		[
+			{
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10,
+					"valueType" : "PERCENT_TO_BASE"
+			}
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"healersRing":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"RING",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Healer's Ring",
+			"description": "Doubles effectiveness of First Aid skill. First Aid Tent will always heal at least 50 points of damage",
+			"event": "Within a serene glade, you discover the Healer's Ring, a simple band glowing with a soft, comforting light. As you slipped it on, a warm energy enveloped you, enhancing your healing abilities."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/healersRing44.bmp",
+			"map": "witchking/map/HEALERSRING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "core:spell.firstAid",
+				"val" : 50,
+				"valueType": "INDEPENDENT_MAX"
+			},
+			{
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "core:spell.firstAid",
+				"val" : 100,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

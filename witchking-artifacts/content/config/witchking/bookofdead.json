@@ -1,0 +1,33 @@
+{
+	"bookOfDead":
+	{
+		"type": ["HERO"],
+		"class": "TREASURE",
+		"slot":	"MISC",
+		"value": 1000,	
+		"text":
+		{
+			"name": "Book of Dead",
+			"description": "Allows hero to cast Death Ripple and Animate Dead at expert level.",
+			"event": "In the shadowy depths of a forgotten tomb, you uncover the Book of the Dead with cover etched with cryptic runes and bound in ancient, decayed leather. As you open the book, a chill sweeps through the air, and ghostly whispers fill your ears, revealing forbidden necromantic knowledge."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/bookOfDead44.bmp",
+			"map": "witchking/map/BOOKOFDEAD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"val" : 3,
+				"subtype": "spell.deathRipple"
+			},
+			{
+				"type": "SPELL",
+				"val" : 3,
+				"subtype": "spell.animateDead"
+			}
+		]
+	}
+}

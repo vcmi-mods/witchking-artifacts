@@ -1,0 +1,33 @@
+{
+	"crownOfSkies":
+	{
+		"type": ["HERO"],
+		"class": "RELIC",
+		"slot":	"HEAD",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Crown of Skies",
+			"description": "Allows hero to cast expert Chain Lightning and improves its damage by 50%",
+			"event": "Amidst a fierce storm atop a mountain peak, you find the Crown of the Skies resting on a stone altar, with lightning crackling around it. As you don the crown, the storm's fury seems to calm, and a surge of power courses through you."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/crownOfSkies44.bmp",
+			"map": "witchking/map/CROWNOFSKIES.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"val" : 3,
+				"subtype": "spell.chainLightning"
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"val" : 50,
+				"subtype": "spell.chainLightning"
+			}
+		]
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"name" : "Witchking artifacts",
+	"description" : "First new artifact pack proposed by Withcking",
+	"version" : "1.0.1",
+	"author" : "Witchking, Warmonger",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Artifacts",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.0.1"   : [ "Update to vcmi-1.5 format" ],
+		"1.0.0"   : [ "Initial release" ],
+	},
+	"artifacts" :
+	[
+		"config/witchking/soulprison.json",
+		"config/witchking/wizardswand.json",
+		"config/witchking/philosophersstone.json",
+		"config/witchking/bookofdead.json",
+		"config/witchking/crownofskies.json",
+		"config/witchking/dwarvenmine.json",
+		"config/witchking/healersring.json",
+		"config/witchking/amuletofdragoneye.json",
+		"config/witchking/stormstone.json",
+		"config/witchking/sacredwarhammer.json",
+		"config/witchking/ritualdagger.json",
+		"config/witchking/shieldofarrowturning.json",
+		"config/witchking/dwarvenhelmet.json"
+	]
+}

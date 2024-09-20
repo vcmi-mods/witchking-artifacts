@@ -1,0 +1,35 @@
+{
+	"stormStone":
+	{
+		"type": ["HERO"],
+		"class": "MAJOR",
+		"slot":	"MISC",
+		"value": 7500,	
+		"text":
+		{
+			"name": "Storm Stone",
+			"description": "Decreases speed of all flying untis on the battlefield by 2.",
+			"event": "On a windswept cliff, you uncover the Storm Stone, crackling with static power. As you claime it, the skies darkened, and the winds grew heavy."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/stormStone44.bmp",
+			"map": "witchking/map/STORMSTONE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "STACKS_SPEED",
+				"val" : -2,
+				"propagator" : "BATTLE_WIDE",
+				"limiters" :
+				[
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : ["FLYING"]
+					}
+				]
+			}
+		]
+	}
+}

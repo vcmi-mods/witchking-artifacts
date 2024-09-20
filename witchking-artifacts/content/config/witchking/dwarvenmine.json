@@ -1,0 +1,28 @@
+{
+	"dwarvenMine":
+	{
+		"type": ["HERO"],
+		"class": "MINOR",
+		"slot":	"MISC",
+		"value": 2500,	
+		"text":
+		{
+			"name": "Dwarven Mine",
+			"description": "At the beginning of battle casts expert Landmine with spell power of 10",
+			"event": "In a secluded, rocky valley, you stumble upon the Dwarven Mine, an ancient relic buried beneath layers of stone. Upon claiming it, you feel the earth itself become an ally."
+		},
+		"graphics":
+		{
+			"image": "witchking/iconsSmall/dwarvenMine44.bmp",
+			"map": "witchking/map/DWARVENMINE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "OPENING_BATTLE_SPELL",
+				"val" : 10,
+				"subtype": "spell.landMine"
+			}
+		]
+	}
+}
