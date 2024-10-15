@@ -34,7 +34,7 @@
 	"artifact.witchking-artifacts.soulPrison.name" : "Věznice duší",
 	"artifact.witchking-artifacts.stormStone.description" : "Snižuje rychlost všech létajících jednotek na bojišti o 2.",
 	"artifact.witchking-artifacts.stormStone.event" : "Na větrném útesu odhalujete Bouřný kámen, který praská statickou energií. Jakmile jej uchopíte, obloha potemní a vítr zhoustne.",
-	"artifact.witchking-artifacts.stormStone.name" : "Bouřný kámen"
+	"artifact.witchking-artifacts.stormStone.name" : "Bouřný kámen",
 	"artifact.witchking-artifacts.wizardsWand.description" : "Snižuje cenu všech kouzel o 2.",
 	"artifact.witchking-artifacts.wizardsWand.event" : "V zapomenuté komoře narazíte na Kouzelnickou hůl, jejíž povrch září magickými symboly. Jakmile ji uchopíte, vlna magické efektivity prostoupí vaší bytostí.",
 	"artifact.witchking-artifacts.wizardsWand.name" : "Kouzelnická hůl"
