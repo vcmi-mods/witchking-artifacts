@@ -11,7 +11,7 @@
 	},	
 	"changelog" :
 	{
-		"1.0.3"   : [ "Added chinese translation by Han Allen" ],
+		"1.0.3"   : [ "Added chinese translation by LeoAllenHan" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
 		"1.0.1"   : [ "Update to vcmi-1.5 format" ],
 		"1.0.0"   : [ "Initial release" ]
