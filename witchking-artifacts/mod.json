@@ -1,7 +1,7 @@
 {
 	"name" : "Witchking artifacts",
-	"description" : "First new artifact pack proposed by Witchking",
-	"version" : "1.0.3",
+	"description" : "Collection of 13 new artifacts proposed by Witchking",
+	"version" : "1.0.4",
 	"author" : "Witchking, Warmonger",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Artifacts",
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.0.4"   : [ "Fixed paths to translation files" ],
 		"1.0.3"   : [ "Added chinese translation by LeoAllenHan" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
 		"1.0.1"   : [ "Update to vcmi-1.5 format" ],
@@ -27,7 +28,7 @@
 		"name" : "巫妖王宝物",
 		"description" : "Withcking制作的首个新宝物模组",
 		"translations" : [
-			"translation/witchking/chinese.json"
+			"translation/witchking-artifacts/chinese.json"
 		]
 	},
 	"artifacts" :
