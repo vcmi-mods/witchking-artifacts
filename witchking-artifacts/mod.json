@@ -1,7 +1,7 @@
 {
 	"name" : "Witchking artifacts",
 	"description" : "Collection of 13 new artifacts proposed by Witchking",
-	"version" : "1.0.4",
+	"version" : "1.0.5",
 	"author" : "Witchking, Warmonger",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Artifacts",
@@ -11,6 +11,7 @@
 	},	
 	"changelog" :
 	{
+		"1.0.5"   : [ "Added russian translation" ],
 		"1.0.4"   : [ "Fixed paths to translation files" ],
 		"1.0.3"   : [ "Added chinese translation by LeoAllenHan" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
@@ -29,6 +30,13 @@
 		"description" : "Withcking制作的首个新宝物模组",
 		"translations" : [
 			"translation/witchking-artifacts/chinese.json"
+		]
+	},
+	"russian" : {
+		"name" : "Артефакты Witchking'а",
+		"description" : "Коллекция из 13 новых артефактов, предложенная Witchking",
+		"translations" : [
+			"translation/witchking-artifacts/russian.json"
 		]
 	},
 	"artifacts" :
