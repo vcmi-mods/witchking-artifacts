@@ -11,7 +11,7 @@
 	},	
 	"changelog" :
 	{
-		"1.0.5"   : [ "Added russian translation" ],
+		"1.0.5"   : [ "Added russian translation by Keloraen", "Added russian translation by FallainBlack" ],
 		"1.0.4"   : [ "Fixed paths to translation files" ],
 		"1.0.3"   : [ "Added chinese translation by LeoAllenHan" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
@@ -37,6 +37,13 @@
 		"description" : "Коллекция из 13 новых артефактов, предложенная Witchking",
 		"translations" : [
 			"translation/witchking-artifacts/russian.json"
+		]
+	},
+	"russian" : {
+		"name" : "Artefakty Witchkingа",
+		"description" : "Kolekcja 13 nowych artefaktów autorstwa Witchkinga",
+		"translations" : [
+			"translation/witchking-artifacts/polish.json"
 		]
 	},
 	"artifacts" :
