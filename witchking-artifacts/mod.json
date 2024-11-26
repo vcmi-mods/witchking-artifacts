@@ -1,7 +1,7 @@
 {
 	"name" : "Witchking artifacts",
 	"description" : "Collection of 13 new artifacts proposed by Witchking",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"author" : "Witchking, Warmonger",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Artifacts",
@@ -11,7 +11,8 @@
 	},	
 	"changelog" :
 	{
-		"1.0.5"   : [ "Added russian translation by Keloraen", "Added russian translation by FallainBlack" ],
+		"1.0.6"   : [ "Minor fixes" ],
+		"1.0.5"   : [ "Added russian translation by Keloraen", "Added polish translation by FallainBlack" ],
 		"1.0.4"   : [ "Fixed paths to translation files" ],
 		"1.0.3"   : [ "Added chinese translation by LeoAllenHan" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
