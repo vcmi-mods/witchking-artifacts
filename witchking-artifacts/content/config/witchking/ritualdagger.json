@@ -17,27 +17,31 @@
 			"map": "witchking/map/RITUALDAGGER.def"
 		},
 		"bonuses":
-		[
+		{
+			"specialUpgrade1" :
 			{
 				"type": "SPECIAL_UPGRADE",
 				"subtype" : "creature.monk",
 				"addInfo": "creature.lich"
 			},
+			"specialUpgrade2" :
 			{
 				"type": "SPECIAL_UPGRADE",
 				"subtype" : "creature.zealot",
 				"addInfo": "creature.lich"
 			},
+			"specialUpgrade3" :
 			{
 				"type": "SPECIAL_UPGRADE",
 				"subtype" : "creature.mage",
 				"addInfo": "creature.lich"
 			},
+			"specialUpgrade4" :
 			{
 				"type": "SPECIAL_UPGRADE",
 				"subtype" : "creature.archMage",
 				"addInfo": "creature.lich"
 			}
-		]
+		}
 	}
 }

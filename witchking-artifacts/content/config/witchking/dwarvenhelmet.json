@@ -17,20 +17,23 @@
 			"map": "witchking/map/DWARVENHELMET.def"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val" : 2
 			},
+			"spellDisruptingRay" :
 			{
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.disruptingRay"
 			},
+			"spellAcidBreath" :
 			{
 				"type": "SPELL_IMMUNITY",
 				"subtype": "spell.acidBreath"
 			}
-		]
+		}
 	}
 }

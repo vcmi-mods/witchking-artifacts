@@ -17,22 +17,25 @@
 			"map": "witchking/map/SACREDWARHAMMER.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellBless" :
 			{
 				"type": "OPENING_BATTLE_SPELL",
 				"val" : 10,
 				"subtype": "spell.bless"
 			},
+			"hate1" :
 			{
 				"type": "HATE",
 				"subtype": "creature.skeleton",
 				"val" : 50
 			},
+			"hate2" :
 			{
 				"type": "HATE",
 				"subtype": "creature.skeletonWarrior",
 				"val" : 50
 			}
-		]
+		}
 	}
 }

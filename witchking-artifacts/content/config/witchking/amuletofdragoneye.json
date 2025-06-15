@@ -17,13 +17,14 @@
 			"map": "witchking/map/AMULETOFDRAGONEYE.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamage" :
 			{
 				"type" : "SPELL_DAMAGE",
 				"subtype" : "spellSchool.any",
 				"val" : 5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

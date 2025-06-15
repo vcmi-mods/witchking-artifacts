@@ -17,19 +17,21 @@
 			"map": "witchking/map/HEALERSRING.def"
 		},
 		"bonuses":
-		[
+		{
+			"firstAid1" :
 			{
 				"type": "SPECIFIC_SPELL_POWER",
 				"subtype": "core:spell.firstAid",
 				"val" : 50,
 				"valueType": "INDEPENDENT_MAX"
 			},
+			"firstAid2" :
 			{
 				"type": "SPECIFIC_SPELL_POWER",
 				"subtype": "core:spell.firstAid",
 				"val" : 100,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

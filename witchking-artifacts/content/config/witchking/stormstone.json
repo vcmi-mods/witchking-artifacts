@@ -17,7 +17,8 @@
 			"map": "witchking/map/STORMSTONE.def"
 		},
 		"bonuses":
-		[
+		{
+			"stackSpeed" :
 			{
 				"type": "STACKS_SPEED",
 				"val" : -2,
@@ -30,6 +31,6 @@
 					}
 				]
 			}
-		]
+		}
 	}
 }

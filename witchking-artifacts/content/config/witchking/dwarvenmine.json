@@ -17,12 +17,13 @@
 			"map": "witchking/map/DWARVENMINE.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellLandMine" :
 			{
 				"type": "OPENING_BATTLE_SPELL",
 				"val" : 10,
 				"subtype": "spell.landMine"
 			}
-		]
+		}
 	}
 }

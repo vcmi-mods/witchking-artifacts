@@ -17,17 +17,19 @@
 			"map": "witchking/map/BOOKOFDEAD.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellDeathRipple" :
 			{
 				"type": "SPELL",
 				"val" : 3,
 				"subtype": "spell.deathRipple"
 			},
+			"spellAnimateDead" :
 			{
 				"type": "SPELL",
 				"val" : 3,
 				"subtype": "spell.animateDead"
 			}
-		]
+		}
 	}
 }

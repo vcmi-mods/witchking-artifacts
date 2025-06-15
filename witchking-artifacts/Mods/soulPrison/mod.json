@@ -1,0 +1,25 @@
+{
+	"name" : "Soul Prison",
+	"description" : "Additional artifact for creatures",
+	"version" : "1.0.0",
+	"author" : "Witchking, Warmonger",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"modType" : "Artifacts",
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},	
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"artifacts" :
+	[
+		"config/witchking/soulprison.json"
+	],
+	"settings" : {
+		"modules" : {
+			"stackArtifact" : true
+		}
+	}	
+}

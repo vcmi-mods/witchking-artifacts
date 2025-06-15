@@ -17,13 +17,15 @@
 			"map": "witchking/map/SHIELDOFARROWTURNING.def"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
+			"archeryNerf" :
 			{
 				"type" : "PERCENTAGE_DAMAGE_BOOST",
 				"subtype" : "damageTypeRanged",
@@ -35,6 +37,6 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		]
+		}
 	}
 }

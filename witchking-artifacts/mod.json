@@ -1,16 +1,17 @@
 {
 	"name" : "Witchking artifacts",
 	"description" : "Collection of 13 new artifacts proposed by Witchking",
-	"version" : "1.0.6",
+	"version" : "1.0.7",
 	"author" : "Witchking, Warmonger",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Artifacts",
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.7.0"
 	},	
 	"changelog" :
 	{
+		"1.0.7"   : [ "Update for vcmi-1.7 format" ],
 		"1.0.6"   : [ "Minor fixes" ],
 		"1.0.5"   : [ "Added russian translation by Keloraen", "Added polish translation by FallainBlack" ],
 		"1.0.4"   : [ "Fixed paths to translation files" ],
@@ -49,7 +50,6 @@
 	},
 	"artifacts" :
 	[
-		"config/witchking/soulprison.json",
 		"config/witchking/wizardswand.json",
 		"config/witchking/philosophersstone.json",
 		"config/witchking/bookofdead.json",

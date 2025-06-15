@@ -17,17 +17,19 @@
 			"map": "witchking/map/CROWNOFSKIES.def"
 		},
 		"bonuses":
-		[
+		{
+			"spellChainLightning1" :
 			{
 				"type": "SPELL",
 				"val" : 3,
 				"subtype": "spell.chainLightning"
 			},
+			"spellChainLightning2" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"val" : 50,
 				"subtype": "spell.chainLightning"
 			}
-		]
+		}
 	}
 }

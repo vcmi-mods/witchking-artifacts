@@ -17,7 +17,8 @@
 			"map": "witchking/map/PHILOSOPHERSSTONE.def"
 		},
 		"bonuses":
-		[
+		{
+			"intelligence" :
 			{
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
@@ -25,6 +26,6 @@
 					"val" : 10,
 					"valueType" : "PERCENT_TO_BASE"
 			}
-		]
+		}
 	}
 }

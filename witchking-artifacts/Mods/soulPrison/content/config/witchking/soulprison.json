@@ -1,7 +1,7 @@
 {
 	"soulPrison":
 	{
-		"type": ["HERO"],
+		"type": ["CREATURE"],
 		"class": "MAJOR",
 		"slot":	"MISC",
 		"value": 6000,	
@@ -17,11 +17,12 @@
 			"map": "witchking/map/SOULPRISON.def"
 		},
 		"bonuses":
-		[
+		{
+			"manaDrain" :
 			{
 				"type": "MANA_DRAIN",
 				"val" : 1
 			}
-		]
+		}
 	}
 }
