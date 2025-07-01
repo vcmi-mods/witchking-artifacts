@@ -14,7 +14,9 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/wizardswand44.bmp",
-			"map": "witchking/map/WIZARDSWAND.def"
+			"map": "witchking/map/WIZARDSWAND.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
+			
 		},
 		"bonuses":
 		{

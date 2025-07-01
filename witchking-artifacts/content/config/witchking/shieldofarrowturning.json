@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/shieldOfArrowTurning44.bmp",
-			"map": "witchking/map/SHIELDOFARROWTURNING.def"
+			"map": "witchking/map/SHIELDOFARROWTURNING.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/soulprison44.bmp",
-			"map": "witchking/map/SOULPRISON.def"
+			"map": "witchking/map/SOULPRISON.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

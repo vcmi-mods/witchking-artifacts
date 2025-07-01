@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/philosophersstone44.bmp",
-			"map": "witchking/map/PHILOSOPHERSSTONE.def"
+			"map": "witchking/map/PHILOSOPHERSSTONE.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/dwarvenMine44.bmp",
-			"map": "witchking/map/DWARVENMINE.def"
+			"map": "witchking/map/DWARVENMINE.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

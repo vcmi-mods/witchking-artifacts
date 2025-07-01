@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/dwarvenHelmet44.bmp",
-			"map": "witchking/map/DWARVENHELMET.def"
+			"map": "witchking/map/DWARVENHELMET.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

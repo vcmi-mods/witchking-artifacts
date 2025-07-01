@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/bookOfDead44.bmp",
-			"map": "witchking/map/BOOKOFDEAD.def"
+			"map": "witchking/map/BOOKOFDEAD.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/healersRing44.bmp",
-			"map": "witchking/map/HEALERSRING.def"
+			"map": "witchking/map/HEALERSRING.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

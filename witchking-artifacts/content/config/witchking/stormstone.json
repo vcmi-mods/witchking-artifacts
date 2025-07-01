@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/stormStone44.bmp",
-			"map": "witchking/map/STORMSTONE.def"
+			"map": "witchking/map/STORMSTONE.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/crownOfSkies44.bmp",
-			"map": "witchking/map/CROWNOFSKIES.def"
+			"map": "witchking/map/CROWNOFSKIES.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/sacredWarHammer44.bmp",
-			"map": "witchking/map/SACREDWARHAMMER.def"
+			"map": "witchking/map/SACREDWARHAMMER.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

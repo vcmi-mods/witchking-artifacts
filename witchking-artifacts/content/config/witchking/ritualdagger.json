@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/ritualDagger44.bmp",
-			"map": "witchking/map/RITUALDAGGER.def"
+			"map": "witchking/map/RITUALDAGGER.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{

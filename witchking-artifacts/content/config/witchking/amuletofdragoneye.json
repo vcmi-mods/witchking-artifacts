@@ -14,7 +14,8 @@
 		"graphics":
 		{
 			"image": "witchking/iconsSmall/amuletOfDragonEye44.bmp",
-			"map": "witchking/map/AMULETOFDRAGONEYE.def"
+			"map": "witchking/map/AMULETOFDRAGONEYE.def",
+			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
 		"bonuses":
 		{
