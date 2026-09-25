@@ -25,28 +25,28 @@
 		"name" : "Artefakty Krále čarodějů",
 		"description" : "První balíček nových artefaktů navržený Králem čarodějů",
 		"translations" : [
-			"translation/witchking-artifacts/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"chinese" : {
 		"name" : "巫妖王宝物",
 		"description" : "Withcking制作的首个新宝物模组",
 		"translations" : [
-			"translation/witchking-artifacts/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"russian" : {
 		"name" : "Артефакты Witchking'а",
 		"description" : "Коллекция из 13 новых артефактов, предложенная Witchking",
 		"translations" : [
-			"translation/witchking-artifacts/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Artefakty Witchkingа",
 		"description" : "Kolekcja 13 nowych artefaktów autorstwa Witchkinga",
 		"translations" : [
-			"translation/witchking-artifacts/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"artifacts" :
