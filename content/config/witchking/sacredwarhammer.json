@@ -1,40 +1,35 @@
 {
-	"sacredWarHammer":
-	{
-		"type": ["HERO"],
-		"class": "MAJOR",
-		"slot":	"RIGHT_HAND",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Sacred War Hammer",
-			"description": "Casts expert Bless at the beginning of battle. All allied units do 50% more damage to Skeletons.",
-			"event": "In a revered shrine, your discover the Sacred War Hammer, its surface gleaming with divine energy. The moment you grasp it, a powerful blessing spread through your ranks."
+	"sacredWarHammer" : {
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "RIGHT_HAND",
+		"value" : 5000,
+		"text" : {
+			"name" : "Sacred War Hammer",
+			"description" : "Casts expert Bless at the beginning of battle. All allied units do 50% more damage to Skeletons.",
+			"event" : "In a revered shrine, your discover the Sacred War Hammer, its surface gleaming with divine energy. The moment you grasp it, a powerful blessing spread through your ranks."
 		},
-		"graphics":
-		{
-			"image": "witchking/iconsSmall/sacredWarHammer44.bmp",
-			"map": "witchking/map/SACREDWARHAMMER.def",
+		"graphics" : {
+			"image" : "witchking/iconsSmall/sacredWarHammer44.bmp",
+			"map" : "witchking/map/SACREDWARHAMMER.def",
 			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
-		"bonuses":
-		{
-			"spellBless" :
-			{
-				"type": "OPENING_BATTLE_SPELL",
+		"bonuses" : {
+			"spellBless" : {
+				"type" : "OPENING_BATTLE_SPELL",
 				"val" : 10,
-				"subtype": "spell.bless"
+				"subtype" : "spell.bless"
 			},
-			"hate1" :
-			{
-				"type": "HATE",
-				"subtype": "creature.skeleton",
+			"hate1" : {
+				"type" : "HATE",
+				"subtype" : "creature.skeleton",
 				"val" : 50
 			},
-			"hate2" :
-			{
-				"type": "HATE",
-				"subtype": "creature.skeletonWarrior",
+			"hate2" : {
+				"type" : "HATE",
+				"subtype" : "creature.skeletonWarrior",
 				"val" : 50
 			}
 		}

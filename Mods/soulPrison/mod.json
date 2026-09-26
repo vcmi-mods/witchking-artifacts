@@ -5,21 +5,20 @@
 	"author" : "Witchking, Warmonger",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"modType" : "Artifacts",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
-	},	
-	"changelog" :
-	{
-		"1.0.0"   : [ "Initial release" ]
 	},
-	"artifacts" :
-	[
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"artifacts" : [
 		"config/witchking/soulprison.json"
 	],
 	"settings" : {
 		"modules" : {
 			"stackArtifact" : true
 		}
-	}	
+	}
 }

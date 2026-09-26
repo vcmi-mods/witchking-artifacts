@@ -1,47 +1,41 @@
 {
-	"ritualDagger":
-	{
-		"type": ["HERO"],
-		"class": "TREASURE",
-		"slot":	"MISC",
-		"value": 750,	
-		"text":
-		{
-			"name": "Ritual dagger",
-			"description": "Allows to upgrade all Mages, Archmages, Monks and Zealots in your army to Liches",
-			"event": "In a dark, mist-shrouded grove, you unearth the Ritual Dagger. Its blade is etched with eerie symbols of necromancy. As you take hold of it, a sinister power begin to resonate within your army."
+	"ritualDagger" : {
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 750,
+		"text" : {
+			"name" : "Ritual dagger",
+			"description" : "Allows to upgrade all Mages, Archmages, Monks and Zealots in your army to Liches",
+			"event" : "In a dark, mist-shrouded grove, you unearth the Ritual Dagger. Its blade is etched with eerie symbols of necromancy. As you take hold of it, a sinister power begin to resonate within your army."
 		},
-		"graphics":
-		{
-			"image": "witchking/iconsSmall/ritualDagger44.bmp",
-			"map": "witchking/map/RITUALDAGGER.def",
+		"graphics" : {
+			"image" : "witchking/iconsSmall/ritualDagger44.bmp",
+			"map" : "witchking/map/RITUALDAGGER.def",
 			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
-		"bonuses":
-		{
-			"specialUpgrade1" :
-			{
-				"type": "SPECIAL_UPGRADE",
+		"bonuses" : {
+			"specialUpgrade1" : {
+				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.monk",
-				"addInfo": "creature.lich"
+				"addInfo" : "creature.lich"
 			},
-			"specialUpgrade2" :
-			{
-				"type": "SPECIAL_UPGRADE",
+			"specialUpgrade2" : {
+				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.zealot",
-				"addInfo": "creature.lich"
+				"addInfo" : "creature.lich"
 			},
-			"specialUpgrade3" :
-			{
-				"type": "SPECIAL_UPGRADE",
+			"specialUpgrade3" : {
+				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.mage",
-				"addInfo": "creature.lich"
+				"addInfo" : "creature.lich"
 			},
-			"specialUpgrade4" :
-			{
-				"type": "SPECIAL_UPGRADE",
+			"specialUpgrade4" : {
+				"type" : "SPECIAL_UPGRADE",
 				"subtype" : "creature.archMage",
-				"addInfo": "creature.lich"
+				"addInfo" : "creature.lich"
 			}
 		}
 	}

@@ -1,33 +1,29 @@
 {
-	"shieldOfArrowTurning":
-	{
-		"type": ["HERO"],
-		"class": "MINOR",
-		"slot":	"LEFT_HAND",
-		"value": 4000,	
-		"text":
-		{
-			"name": "Shield of Arrow Turning",
-			"description": "ncreases hero defense skill by 2 and reduces effectiveness of enemy Archery skill by half",
-			"event": "In a remote armory, you find the Shield of Arrow Turning, its metal polished to a mirror-like shine. As you raise it, the air around you seemed to bend, deflecting incoming threats."
+	"shieldOfArrowTurning" : {
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "LEFT_HAND",
+		"value" : 4000,
+		"text" : {
+			"name" : "Shield of Arrow Turning",
+			"description" : "ncreases hero defense skill by 2 and reduces effectiveness of enemy Archery skill by half",
+			"event" : "In a remote armory, you find the Shield of Arrow Turning, its metal polished to a mirror-like shine. As you raise it, the air around you seemed to bend, deflecting incoming threats."
 		},
-		"graphics":
-		{
-			"image": "witchking/iconsSmall/shieldOfArrowTurning44.bmp",
-			"map": "witchking/map/SHIELDOFARROWTURNING.def",
+		"graphics" : {
+			"image" : "witchking/iconsSmall/shieldOfArrowTurning44.bmp",
+			"map" : "witchking/map/SHIELDOFARROWTURNING.def",
 			"scenarioBonus" : "witchking/scenarioBonus/blank.png"
 		},
-		"bonuses":
-		{
-			"defence" :
-			{
+		"bonuses" : {
+			"defence" : {
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			},
-			"archeryNerf" :
-			{
+			"archeryNerf" : {
 				"type" : "PERCENTAGE_DAMAGE_BOOST",
 				"subtype" : "damageTypeRanged",
 				"updater" : "TIMES_HERO_LEVEL",
@@ -36,7 +32,9 @@
 				"targetSourceType" : "SECONDARY_SKILL",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
 			}
 		}
 	}
